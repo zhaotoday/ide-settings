@@ -1,1 +1,1 @@
-WebStorm/PHPStorm 的设置文件。
+WebStorm/PhpStorm 的设置文件。
