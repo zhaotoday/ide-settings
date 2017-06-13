@@ -15,7 +15,7 @@ WebStorm（前端）和 PhpStorm（后端 PHP）IDE 的统一设置。
 
 ## 激活服务器
 在激活框，选择`License server`，输入`激活服务器地址`。
-- WebStorm：`http://idea.imsxm.com/`；
+- WebStorm：`http://idea.iteblog.com/key.php`；
 - PhpStorm：`http://www.0-php.com:1017`。
 
 ## 代码注释规范
