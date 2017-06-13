@@ -4,6 +4,12 @@ WebStorm（前端）和 PhpStorm（后端 PHP）IDE 的统一设置。
 ## 目的
 为了多人开发时，提高代码风格的一致性和代码的可读性，减少合并时由代码格式化产生的冲突。
 
+## 相关
+- [遵循 ESDoc 规范编写 JS 代码注释](https://github.com/zhaotoday/esdoc)
+- [遵循 PHPDoc 规范编写 PHP 代码注释](https://www.phpdoc.org/)
+- [EditorConfig 官网](http://editorconfig.org/)
+- [EditorConfig使用介绍](https://segmentfault.com/a/1190000007599845)
+
 ## 注意
 请定期升级 IDE，目前最新版本为：WebStorm（2017.1.4）、PhpStorm（2017.1.3）。
 
@@ -11,6 +17,10 @@ WebStorm（前端）和 PhpStorm（后端 PHP）IDE 的统一设置。
 在激活框，选择`License server`，输入`激活服务器地址`。
 - WebStorm：`http://idea.imsxm.com/`；
 - PhpStorm：`http://www.0-php.com:1017`。
+
+## 代码注释规范
+- 前端 JS：ESDoc；
+- 后端 PHP：PHPDoc。
 
 ## 统一设置
 #### 给已修改文件加 * 号（便于区分文件是否已修改）
@@ -32,7 +42,7 @@ File -> Settings -> Editor -> Code Style -> JavaScript -> Scheme 选择 Default 
 
 ## PhpStorm 设置
 #### 使用 Drupal 规范格式化代码（按团队习惯统一选择一种规范）
-- File -> Settings -> Editor -> Code Style -> PHP -> Scheme 选择 Default -> [右上角] Set From... -> Predefined Style -> Drupal。
+File -> Settings -> Editor -> Code Style -> PHP -> Scheme 选择 Default -> [右上角] Set From... -> Predefined Style -> Drupal。
 
 #### 修改 PHPDoc 规则（可选）
 在上面的配置页面，切到 PHPDoc，以下这两项去掉勾选即可：
