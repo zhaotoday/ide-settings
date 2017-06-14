@@ -23,6 +23,9 @@ WebStorm（前端）和 PhpStorm（后端 PHP）IDE 的统一设置。
 - 后端 PHP：PHPDoc。
 
 ## 统一设置
+#### 取消文件自动保存
+File -> Settings -> Appearance & Behavior -> system settings -> 去掉勾选 Save files on frame deactivation。
+
 #### 给已修改文件加 * 号（便于区分文件是否已修改）
 File -> Settings -> Editor -> General -> Editor Tabs -> [Tab Appearance] 勾选 Mark modified tabs with asterisk。
 
@@ -37,8 +40,8 @@ EditorConfig 可以帮助开发者在不同的编辑器和 IDE 之间定义和�
 #### 使用 Standard 规范格式化代码
 File -> Settings -> Editor -> Code Style -> JavaScript -> Scheme 选择 Default -> [右上角] Set From... -> Predefined Style -> JavaScript Standard Style。
 
-#### 使用默认规范格式化 html、css、json 等其他格式文件
-无需手动配置。
+#### 格式化 html、css 等其他格式文件
+... -> Set from... -> JavaScript。
 
 ## PhpStorm 设置
 #### 使用 Drupal 规范格式化代码（按团队习惯统一选择一种规范）
