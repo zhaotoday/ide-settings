@@ -36,6 +36,12 @@ File -> Settings -> Keymap -> [Main menu -> Edit] 搜索 Redo -> 删除已有快
 EditorConfig 可以帮助开发者在不同的编辑器和 IDE 之间定义和维护一致的代码风格。
 > 比如，在项目开发过程中，有的人喜欢用 tab 来缩进，有的人喜欢用空格。为了保持代码风格的一致，可以使用 EditorConfig 来规范缩进风格，缩进大小，tab 长度以及字符集等。
 
+#### 启用 ESLint
+File -> Settings -> Languages & Frameworks -> JavaScript -> Code Quality Tools -> ESLint -> 勾选 Enable。
+
+#### 启用 Stylelint
+File -> Settings -> Languages & Frameworks -> Stylesheets - > Stylelint -> 勾选 Enable。
+
 ## WebStorm 设置
 #### 使用 Standard 规范格式化代码
 File -> Settings -> Editor -> Code Style -> JavaScript -> Scheme 选择 Default -> [右上角] Set From... -> Predefined Style -> JavaScript Standard Style。
