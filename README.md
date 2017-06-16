@@ -5,10 +5,15 @@ WebStorm（前端）和 PhpStorm（后端 PHP）IDE 的统一设置。
 为了多人开发时，提高代码风格的一致性和代码的可读性，减少合并时由代码格式化产生的冲突。
 
 ## 相关
+- [standard](https://github.com/feross/standard)
+- [stylelint-config-standard](https://github.com/stylelint/stylelint-config-standard)
+- [EditorConfig 官网](http://editorconfig.org/)
+- [EditorConfig 使用介绍](https://segmentfault.com/a/1190000007599845)
 - [遵循 ESDoc 规范编写 JS 代码注释](https://github.com/zhaotoday/esdoc)
 - [遵循 PHPDoc 规范编写 PHP 代码注释](https://www.phpdoc.org/)
-- [EditorConfig 官网](http://editorconfig.org/)
-- [EditorConfig使用介绍](https://segmentfault.com/a/1190000007599845)
+
+## 配置文件
+部分配置文件拷贝自`vue-cli`，见`/configs`文件夹，仅供参考。
 
 ## 注意
 请定期升级 IDE，目前最新版本为：WebStorm（2017.1.4）、PhpStorm（2017.1.3）。
