@@ -3,6 +3,7 @@ WebStorm（前端）和 PhpStorm（后端 PHP）IDE 的统一设置。
 
 ## 目的
 为了多人开发时，提高代码风格的一致性和代码的可读性，减少合并时由代码格式化产生的冲突。
+> 可考虑导出 IDE 配置文件，团队统一使用。
 
 ## 相关
 - [standard](https://github.com/feross/standard)
