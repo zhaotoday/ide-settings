@@ -56,7 +56,7 @@ File -> Settings -> Editor -> Code Style -> JavaScript -> Scheme 选择 Default 
 ... -> Set from... -> JavaScript。
 
 #### 修复修改文件时，webpack-dev-server 不会自动编译刷新的 bug
-File -> Settings -> Appearance & Behavior -> System Settings -> Use "safe write" (save changes to a temporary file first)
+File -> Settings -> Appearance & Behavior -> System Settings -> 去掉勾选 Use "safe write" (save changes to a temporary file first)
 
 ## PhpStorm 设置
 #### 使用 Drupal 规范格式化代码（按团队习惯统一选择一种规范）
